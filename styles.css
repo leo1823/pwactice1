@@ -1,22 +1,45 @@
+.bodyText {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 body {
-background-color: blue;
+  background-color: dodgerblue;
 }
+
 p {
-    color: white;
-    font-style: italic;
+  color: white;
+  /* font-style: italic; */
 }
+
 h1 {
-    color: white;
+  color: white;
 }
+
 a {
+    text-decoration: none;
+  /* This is the primary color for links */
+  color: red;
+}
 
-color:red;
+.underlineTextBold {
+    color: red;
+    background: yellow;
+    text-decoration: underline;
+}
 
+span {
+    background: yellow;
+}
+
+
+.red {
+  color: red;
 }
 
 a:hover {
-    background-color: red;
-    color:white;
-    text-decoration-line: underline;
-
+  /* background-color: red; */
+  color: white;
+  text-decoration: underline;
 }
