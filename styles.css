@@ -1,0 +1,22 @@
+body {
+background-color: blue;
+}
+p {
+    color: white;
+    font-style: italic;
+}
+h1 {
+    color: white;
+}
+a {
+
+color:red;
+
+}
+
+a:hover {
+    background-color: red;
+    color:white;
+    text-decoration-line: underline;
+
+}
